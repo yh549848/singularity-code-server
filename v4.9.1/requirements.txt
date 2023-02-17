@@ -1,0 +1,9 @@
+numpy
+matplotlib
+seaborn
+pandas
+scipy
+plotly
+pysqlite3-binary
+pyyaml
+six
