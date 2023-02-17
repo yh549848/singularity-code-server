@@ -20,7 +20,7 @@ From: ../../singularity-tidyverse/tidyverse_1.3.2-r421.sif
   # NOTE: Install code-server and extension's dependencies
   wget \
     --no-verbose \
-    "https://github.com/coder/code-server/releases/download/v4.7.1/code-server_${CODER_VERSION}_amd64.deb" && \
+    "https://github.com/coder/code-server/releases/download/${CODER_VERSION}/code-server_${CODER_VERSION}_amd64.deb" && \
   dpkg -i code-server_${CODER_VERSION}_amd64.deb && \
   R -e 'install.packages("languageserver")' && \
   R -e 'install.packages("httpgd")' && \
