@@ -23,4 +23,9 @@ julia -e 'import Pkg; Pkg.add("CodecZlib")'
 
 julia -e 'import Pkg; Pkg.add("PlotlyJS")'
 julia -e 'import Pkg; Pkg.add("PyPlot")'
+# NOTE: Cannot install
+# julia -e 'import Pkg; Pkg.add("Plots")'
+# julia -e 'import Pkg; Pkg.add("StatsPlots")'
+julia -e 'import Pkg; Pkg.add("Gadfly")'
+
 julia -e 'import Pkg; Pkg.add("PooledArrays")'

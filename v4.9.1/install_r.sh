@@ -20,6 +20,7 @@ R -e 'BiocManager::install("polyester")' && \
 R -e 'BiocManager::install("tximport")' && \
 R -e 'BiocManager::install("rtracklayer")' && \
 R -e 'BiocManager::install("rhdf5")' && \
+R -e 'BiocManager::install("GenomicFeatures")' && \
 R -e 'devtools::install_github("pachterlab/sleuth")' && \
 R -e 'install.packages("here")' && \
 R -e 'install.packages("docopt")' && \
